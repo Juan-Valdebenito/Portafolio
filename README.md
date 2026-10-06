@@ -60,4 +60,4 @@ y visita `http://localhost:5500`.
 
 - [ ] Reemplazar `assets/profile.svg` por una foto real.
 - [ ] Agregar perfil de LinkedIn cuando lo tengas (en `index.html`, sección hero y contacto).
-- [ ] Actualizar el link de FullFragance cuando el dominio `FullFragance.cl` esté activo.
+- [x] Actualizar el link de FullFragance cuando el dominio `FullFragance.cl` esté activo.
