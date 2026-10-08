@@ -2,6 +2,13 @@
 
 Sitio personal estático (HTML + CSS + JS puro, sin frameworks ni build step) con tema oscuro/claro, animaciones al hacer scroll y CV descargable en PDF.
 
+🌐 **Portafolio en vivo:** https://juan-valdebenito.github.io/Portafolio/
+
+## Mis proyectos
+
+- **[FullFragance.cl](https://fullfragance.cl/)** — Mi proyecto propio: comparador de precios de perfumes entre las principales tiendas chilenas. En producción con dominio propio y muy buena aceptación por parte de los usuarios.
+- **[Noticias Tenis de Mesa Loncoche](https://noticiastenisdemesaloncoche.vercel.app/)** — Sitio de noticias oficial de la selección de tenis de mesa de Loncoche.
+
 ## Estructura
 
 ```
