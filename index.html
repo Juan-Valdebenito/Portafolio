@@ -181,7 +181,7 @@
     <section id="proyectos" class="section container">
       <h2 class="section-title reveal"><span class="num">03.</span> Proyectos destacados</h2>
       <div class="projects-grid">
-        <article class="project-card project-featured reveal">
+        <article class="project-card project-featured theme-ff reveal">
           <div class="featured-info">
             <div class="featured-eyebrow">
               <span class="live-dot" aria-hidden="true"></span> En producción · Proyecto propio
@@ -193,7 +193,7 @@
               personalizadas. Disponible en su dominio propio, con una muy alta aceptación entre los usuarios.
             </p>
             <ul class="featured-list">
-              <li><span>💸</span> Comparador de precios por tienda y ciudad, destacando automáticamente la mejor oferta.</li>
+              <li><span>💸</span> Más de 11.900 perfumes comparados en 11 tiendas chilenas, ordenados del más barato al más caro.</li>
               <li><span>🧪</span> Test olfativo de 22 notas que alimenta un motor de recomendaciones con % de coincidencia.</li>
               <li><span>🗺️</span> Mapa de tiendas físicas con Leaflet + OpenStreetMap.</li>
               <li><span>🔐</span> Autenticación con JWT, bcrypt y Google; favoritos sincronizados con tu cuenta.</li>
@@ -214,59 +214,61 @@
           </div>
 
           <a class="featured-visual" href="https://fullfragance.cl/" target="_blank" rel="noopener" aria-label="Abrir FullFragance">
-            <div class="mock-browser" aria-hidden="true">
-              <div class="mock-bar">
+            <div class="mock-browser">
+              <div class="mock-bar" aria-hidden="true">
                 <span></span><span></span><span></span>
                 <div class="mock-url">fullfragance.cl</div>
               </div>
-              <div class="mock-body">
-                <div class="mock-product">
-                  <div class="mock-bottle"><div class="mock-cap"></div><div class="mock-flask"></div></div>
-                  <div>
-                    <div class="mock-line w70"></div>
-                    <div class="mock-line w45 muted"></div>
-                    <div class="mock-notes"><i>Cítrico</i><i>Amaderado</i><i>Ámbar</i></div>
-                  </div>
-                </div>
-                <div class="mock-table">
-                  <div class="mock-row best"><span>Tienda A</span><b>Mejor precio</b></div>
-                  <div class="mock-row"><span>Tienda B</span><em></em></div>
-                  <div class="mock-row"><span>Tienda C</span><em></em></div>
-                </div>
-                <div class="mock-match">
-                  <span>Coincidencia con tu perfil</span>
-                  <div class="mock-meter"><div></div></div>
-                </div>
+              <div class="mock-screen">
+                <img src="assets/projects/fullfragance.jpg" alt="Captura de la portada de FullFragance: ofertas de hoy, categorías y tiendas monitoreadas" loading="lazy" width="960">
               </div>
             </div>
+            <span class="mock-hint">Pasa el mouse para recorrer la página</span>
           </a>
         </article>
 
-        <article class="project-card reveal">
-          <div class="project-top">
-            <span class="project-folder">📁</span>
-            <div class="project-links">
-              <a href="https://github.com/Juan-Valdebenito/Loncoche-Info-TDM" target="_blank" rel="noopener" aria-label="Ver código de Noticias Tenis de Mesa Loncoche en GitHub">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
-              </a>
-              <a href="https://noticiastenisdemesaloncoche.vercel.app/" target="_blank" rel="noopener" aria-label="Ver Noticias Tenis de Mesa Loncoche en vivo">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
-              </a>
+        <article class="project-card project-featured featured-reverse theme-tdm reveal">
+          <div class="featured-info">
+            <div class="featured-eyebrow">
+              <span class="live-dot" aria-hidden="true"></span> En producción · Noticiero oficial
+            </div>
+            <h3>Loncoche TDM</h3>
+            <p>
+              Sitio de noticias oficial de la Selección de Tenis de Mesa de Loncoche. Reúne resultados de torneos,
+              convocatorias, plantel, calendario de competencias y contacto en un sitio rápido y fácil de mantener
+              para el club.
+            </p>
+            <ul class="featured-list">
+              <li><span>📰</span> Cada noticia es un archivo Markdown: el club publica sin tocar HTML ni CSS.</li>
+              <li><span>🎠</span> Portada con carrusel de noticias destacadas y categorías por color (Resultados, Torneos, Convocatorias).</li>
+              <li><span>⚡</span> Sitio 100% estático generado con Astro: sin backend, carga casi instantánea.</li>
+              <li><span>🌗</span> Diseño responsivo con modo claro y oscuro, desplegado automáticamente en Vercel.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Astro</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Markdown CMS</span>
+              <span class="tag">Vercel</span>
+            </div>
+            <div class="featured-actions">
+              <a class="btn btn-primary" href="https://noticiastenisdemesaloncoche.vercel.app/" target="_blank" rel="noopener">Ver en vivo ↗</a>
+              <a class="btn btn-ghost" href="https://github.com/Juan-Valdebenito/Loncoche-Info-TDM" target="_blank" rel="noopener">Código en GitHub</a>
             </div>
           </div>
-          <h3>Noticias Tenis de Mesa Loncoche</h3>
-          <p>
-            Sitio de noticias oficial de la selección de tenis de mesa de Loncoche: resultados de torneos,
-            plantel del equipo, calendario de competencias e información de contacto. Sitio estático y
-            ultrarrápido donde cada noticia es un archivo Markdown, para que el club publique sin tocar código.
-          </p>
-          <div class="tag-row">
-            <span class="tag">Astro</span>
-            <span class="tag">Tailwind CSS</span>
-            <span class="tag">Markdown CMS</span>
-            <span class="tag">Vercel</span>
-          </div>
-          <a class="project-cta" href="https://noticiastenisdemesaloncoche.vercel.app/" target="_blank" rel="noopener">Ver proyecto en vivo →</a>
+
+          <a class="featured-visual" href="https://noticiastenisdemesaloncoche.vercel.app/" target="_blank" rel="noopener" aria-label="Abrir Noticiero Loncoche TDM">
+            <div class="mock-browser">
+              <div class="mock-bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+                <div class="mock-url">noticiastenisdemesaloncoche.vercel.app</div>
+              </div>
+              <div class="mock-screen">
+                <img src="assets/projects/loncoche-tdm.jpg" alt="Captura de la portada del noticiero Loncoche TDM con la última noticia y el listado de noticias" loading="lazy" width="960">
+              </div>
+            </div>
+            <span class="mock-hint">Pasa el mouse para recorrer la página</span>
+          </a>
         </article>
 
         <article class="project-card reveal">

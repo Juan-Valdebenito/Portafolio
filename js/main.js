@@ -48,3 +48,13 @@ revealEls.forEach((el) => observer.observe(el));
 
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Project screenshots: let the hover scroll stop exactly at the bottom of each image
+const mockScreens = document.querySelectorAll('.mock-screen');
+const setScreenHeights = () => {
+  mockScreens.forEach((screen) => {
+    screen.style.setProperty('--screen-h', `${screen.clientHeight}px`);
+  });
+};
+setScreenHeights();
+window.addEventListener('resize', setScreenHeights);
